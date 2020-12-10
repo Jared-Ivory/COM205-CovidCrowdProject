@@ -1,6 +1,5 @@
 $(document).ready(() => {
   $("#content").load("../public/components/home.html");
-
   //handle navigation links
   $(".nav-link").on("click", ({ target }) => {
     const { id } = target;
@@ -11,6 +10,7 @@ $(document).ready(() => {
       if (status == "error") {
         console.log(`error loading page ${id}`);
       }
+      loadCharts();
     });
   });
 });

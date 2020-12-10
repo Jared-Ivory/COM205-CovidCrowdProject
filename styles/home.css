@@ -26,7 +26,7 @@
   border-radius: 5px;
 }
 .card-content {
-  height: 150px;
+  height: fit-content;
   width: inherit;
 }
 
