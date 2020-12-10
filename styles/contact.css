@@ -1,0 +1,9 @@
+.contact {
+  background-image: linear-gradient(#0f0f0f, black);
+  color: white;
+}
+
+.method img {
+  width: 100%;
+  height: 50%;
+}

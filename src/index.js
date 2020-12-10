@@ -5,8 +5,8 @@ $(document).ready(() => {
   $(".nav-link").on("click", ({ target }) => {
     const { id } = target;
 
-    $(".nav-link").removeClass("active");
-    $(`#${id}`).addClass("active");
+    $(".nav-link").removeClass("selected");
+    $(`#${id}`).addClass("selected");
     $("#content").load(`../public/components/${id}.html`, (res, status) => {
       if (status == "error") {
         console.log(`error loading page ${id}`);

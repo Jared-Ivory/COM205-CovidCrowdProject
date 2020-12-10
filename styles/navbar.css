@@ -1,0 +1,29 @@
+.nav-header {
+  font-family: "Montserrat Alternates", Arial, Helvetica, sans-serif;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header .logo {
+  font-weight: bold;
+  color: #142069;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header a {
+  color: #a2a2a2;
+  text-decoration: none;
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+
+header .selected {
+  color: #142069;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #2b3780;
+}

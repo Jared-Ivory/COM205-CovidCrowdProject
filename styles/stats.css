@@ -1,0 +1,99 @@
+.stats {
+  background-color: #0f0f0f;
+  color: white;
+  font-weight: 600;
+}
+
+[class*="col-"] {
+  align-items: center;
+  justify-content: center;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: center;
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.currency img {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+}
+
+.currencies {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 30px;
+}
+
+.jumbo {
+  font-size: 3em;
+}
+
+.jumbo img {
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+}
+
+.price {
+  font-size: 1.8em;
+  display: flex;
+}
+
+.price > * {
+  margin-right: 15px;
+}
+
+.current-price {
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.price-change {
+  color: #e12525;
+}
+
+table {
+  width: 100%;
+  color: white;
+  table-layout: fixed;
+
+  text-align: center;
+}
+
+thead th {
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: #a2a2a2;
+}
+
+tbody td {
+  padding: 10px;
+}
+
+button {
+  font-weight: 600;
+  padding: 10px;
+  outline: none;
+  border-width: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.add-favorite {
+  background-color: #1375d4;
+  color: white;
+}
+
+button:hover {
+  background-color: #1669bd;
+}

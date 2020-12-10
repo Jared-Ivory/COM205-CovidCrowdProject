@@ -1,8 +1,87 @@
-.btn-circle {
-  width: 30px;
-  height: 30px;
-  padding: 6px 0px;
-  border-radius: 15px;
-  font-size: 8px;
-  text-align: center;
+html,
+body,
+div,
+img {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+#content {
+  overflow: auto;
+  height: auto;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heading1 {
+  color: #a2a2a2;
+  font-size: 3rem;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.heading2 {
+  color: #a2a2a2;
+  font-size: 2rem;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.bg-secondary {
+  color: #a2a2a2;
+  background-color: #a2a2a2;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 25px;
+  min-height: 100%;
+  background-color: inherit;
 }
