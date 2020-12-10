@@ -4,6 +4,31 @@
 }
 
 .method img {
+  height: 200px;
   width: 100%;
-  height: 50%;
+}
+
+.method img:hover {
+  fill: white;
+}
+
+.method-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.method-information h4 {
+  justify-content: center;
+  align-items: center;
+}
+
+.method-information a {
+  text-decoration: none;
+  color: #142069;
+}
+
+.method a:hover {
+  color: #2b3780;
 }
